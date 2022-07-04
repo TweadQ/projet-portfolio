@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './Navigation'
-import BlocLeft from './BlocLeft'
+import BlocLeftHome from './BlocLeft'
 
 export default function Layout({children}) {
   return (
@@ -8,7 +8,7 @@ export default function Layout({children}) {
       <Navigation />
       <div className='flex'>
         <div>
-          <BlocLeft />
+          <BlocLeftHome />
         </div>
         <div>
           {children}

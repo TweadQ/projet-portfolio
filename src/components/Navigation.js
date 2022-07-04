@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemNavBar from '../components/NavItems'
+import NavItems from '../components/NavItems'
 
 export default function Navigation() {
   const items = [
@@ -35,13 +35,15 @@ export default function Navigation() {
     }
   ]
   return (
-    <div>
-      <h1 className='bg-blue-800'>
+    <div className="flex items-center">
+      <h1 className="text-3xl mr-20">
         Smith<span>.</span>CV
       </h1>
-      {items.map((item) => (
-        <ItemNavBar key={item.id} slug={item.slug} title={item.title} />
-      ))}
+      <div className="flex text-2xl">
+        {items.map((item) => (
+          <NavItems key={item.id} slug={item.slug} title={item.title} />
+        ))}
+      </div>
     </div>
   );
 }
