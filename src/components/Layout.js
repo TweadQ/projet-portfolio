@@ -4,7 +4,7 @@ import BlocLeftHome from './BlocLeft'
 
 export default function Layout({children}) {
   return (
-    <div>
+    <div className='px-10 py-4'>
       <Navigation />
       <div className='flex'>
         <div>
@@ -17,3 +17,5 @@ export default function Layout({children}) {
     </div>
   );
 }
+
+
