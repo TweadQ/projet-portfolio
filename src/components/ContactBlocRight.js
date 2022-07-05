@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactBlocRight() {
   return (
     <div className="bg-[#f5f0f0] px-20">
-      <div className="py-20">
+      <div className="py-[4.35rem]">
         <h2 className="text-[4.5rem] pb-5 mt-[-1.5rem]">Contactez moi</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
