@@ -29,7 +29,7 @@ export default function BlocRightHome() {
     <div className="bg-[#f5f0f0]">
       <div className="px-20 py-12">
         <p className="text-3xl">Développeur full stack</p>
-        <h2 className="text-[4.5rem] pb-5 mt-[-1.5rem]">Justin Bieber</h2>
+        <h2 className="text-[4.5rem] pb-5 mt-[-1.5rem] font-medium">Justin Bieber</h2>
         <p className="text-2xl pb-8">Description</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad

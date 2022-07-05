@@ -5,31 +5,31 @@ import BlocLeftBottomItem from './BlocLeftBottomItem'
 export default function BlocLeftHome() {
   const items2 = [
     {
-      src : "téléchargemnt(2).webp",
+      src : 'img/fiche.webp',
       title : "Name :",
       contenu : "Justin Bieber",
       id : 1
     },
     {
-      src : "téléchargemnt(3).webp",
+      src : "img/location.webp",
       title : "Location :",
-      contenu : "Justin Bieber",
+      contenu : "London UK",
       id : 2
     },
     {
-      src : "téléchargemnt(4).webp",
+      src : "img/mail.webp",
       title : "contactme@templatename.com",
       contenu : "",
       id : 3
     },
     {
-      src : "téléchargemnt(5).webp",
+      src : "img/tel.webp",
       title : "+76 6524 567862 763",
       contenu : "",
       id : 4
     },
     {
-      src : "téléchargemnt(6).webp",
+      src : "img/adresse.webp",
       title : "www.mytemplatename.com",
       contenu : "",
       id : 5
