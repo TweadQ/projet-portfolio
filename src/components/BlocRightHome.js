@@ -45,7 +45,7 @@ export default function BlocRightHome() {
           dolorum dolor nisi?
         </p>
       </div>
-      <div className='flex gap-[8rem] px-20 py-[2.55rem] text-center'>
+      <div className='lg:flex gap-[8rem] px-20 py-[2.55rem] text-center'>
         {items3.map((item) => (
           <HomeCard
             key={item.id}

@@ -28,7 +28,7 @@ export default function ServicesBlocRight() {
         <p className="text-3xl">Ce que je vous offre</p>
         <h2 className="text-[4.5rem] pb-5 mt-[-1.5rem] font-medium">Mes Services</h2>
       </div>
-      <div className='flex gap-8'>
+      <div className='lg:flex gap-8'>
         {items6.map((item) => (
           <ServicesCards
             key={item.id}

@@ -6,7 +6,7 @@ export default function Layout({children}) {
   return (
     <div className='px-10 py-4'>
       <Navigation />
-      <div className='flex'>
+      <div className='lg:flex'>
         <div>
           <BlocLeftHome />
         </div>

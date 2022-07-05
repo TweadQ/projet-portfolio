@@ -37,7 +37,7 @@ export default function BlocLeftHome() {
   ]
   return (
     <div>
-      <div className="w-[25rem]">
+      <div className="xs:w-[100%] xs-auto lg:w-[25rem]">
         <img src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp" alt="" />
       </div>
       <div className="bg-blue-900">

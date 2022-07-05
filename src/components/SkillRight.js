@@ -57,12 +57,12 @@ export default function SkillRight() {
           sed, id, explicabo at deleniti pariatur est.
         </p>
       </div>
-      <div className='flex gap-[8rem] px-20 py-12'>
+      <div className='lg:flex lg:gap-[8rem] px-20 lg:py-12'>
         {items4.map((item) => (
           <ProgressBarSkill key={item.id} valeur={item.valeur} title={item.title} valeur2={item.valeur2}/>
         ))}
       </div>
-      <div className='flex gap-[8rem] px-20 py-12 pb-[8.57rem]'>
+      <div className='lg:flex gap-[8rem] px-20 lg:py-12 pb-[8.57rem]'>
         {items5.map((item) => (
           <ProgressBarSkill key={item.id} valeur={item.valeur} title={item.title} valeur2={item.valeur2}/>
         ))}

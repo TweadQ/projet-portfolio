@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function ProgressBarSkill({title, valeur, valeur2}) {
   return (
-    <div>
-      <div className="flex justify-between w-[13rem] mb-1">
+    <div className='mb-[2.75rem] sm:w-[26rem] lg:w-[13rem]'>
+      <div className="flex justify-between lg:mb-1">
         <span className="text-base font-medium text-blue-700 dark:text-white">
           {title}
         </span>
