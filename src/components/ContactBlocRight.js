@@ -14,9 +14,9 @@ export default function ContactBlocRight() {
           adLorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
-      <div className="flex gap-[6rem] pb-5">
-        <input className="rounded w-[25rem]" type="text" placeholder="Name" />
-        <input className="rounded w-[25rem]" type="text" placeholder="E-mail" />
+      <div className="lg:flex gap-[6rem] pb-5">
+        <input className="rounded sm:w-[26.3rem] lg:w-[25rem] mb-5" type="text" placeholder="Name" />
+        <input className="rounded sm:w-[26.3rem] lg:w-[25rem]" type="text" placeholder="E-mail" />
       </div>
       <div className='flex flex-col'>
         <input className="rounded mb-5" type="text" placeholder="Subject" />

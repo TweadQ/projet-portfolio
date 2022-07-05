@@ -31,7 +31,7 @@ export default function TestimonialsBlocRight() {
         <p className="text-3xl">Ce que les clients disent</p>
         <h2 className="text-[4.5rem] pb-5 mt-[-1.5rem]">Témoignages</h2>
       </div>
-      <div className='flex gap-8 pb-[6.83rem]'>
+      <div className='lg:flex gap-8 pb-[6.83rem]'>
         {items7.map((item) => (
           <TestimonialsCards
             key={item.id}

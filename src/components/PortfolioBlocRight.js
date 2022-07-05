@@ -11,7 +11,7 @@ export default function PortfolioBlocRight() {
         <p className='font-medium'>React</p>
         <p className='font-medium'>Php-Laravel</p>
       </div>
-      <div className='flex gap-5 py-[5.25rem]'>
+      <div className='lg:flex gap-5 py-[5.25rem]'>
         <img className='w-[18rem] h-[20rem]' src="img/personne1.webp" alt="" />
         <img className='w-[18rem] h-[20rem]' src="img/personne2.webp" alt="" />
       </div>
